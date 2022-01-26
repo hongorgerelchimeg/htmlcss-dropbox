@@ -213,7 +213,7 @@ a .arb:hover {
 
 .collumn {
     width: 30%;
-    height: auto;
+    height: 1000px;
     float: left;
     border: 1px solid rgb(201, 201, 201);
 }
@@ -230,6 +230,10 @@ a .arb:hover {
 
 .collumn .table-mini-container .line-text {
     margin: 1rem 0;
+    word-spacing: initial;
+}
+
+.inline-block {
     display: inline-block;
 }
 
@@ -243,6 +247,42 @@ a .arb:hover {
     width: 80%;
     margin: 0 auto;
 }
+
+
+
+/* Table Button, a , utility.css */
+.button-full button {
+    width: 100%;
+}
+
+.collumn .table-mini-container .line-text a {
+    color: #0261FF;
+}
+
+.break-line {
+    width: 15%;
+    height: 1px;
+    background-color: rgb(187, 187, 187);
+    margin: 2rem 0;
+}
+
+
+/* Table Ul design */
+
+.collumn .table-mini-container ul {
+    list-style-image: url(../img/check.svg);
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.collumn .table-mini-container ul li {
+    margin: 1rem 0;
+
+}
+
+
+
 
 
 
