@@ -30,6 +30,13 @@ h2  {
     font-size: 2.2rem;
 }
 
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
 h5  {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -278,23 +285,13 @@ a .arb:hover {
     margin: 2rem 0;
 }
 
-
-/* Table Ul design */
-
-.collumn .table-mini-container ul {
-    list-style-image: url(../img/check.svg);
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
+/* ICON modification */
+.bi-check {
+    color: #0261FF;
+    font-size: 1.2rem;
 }
 
-
-
-.collumn .table-mini-container ul li {
-    margin: 1rem 0;
-   
-    
-}
+/* Table Full width styling */
 
 .container-70 .full {
     width: 100%;
@@ -318,14 +315,18 @@ a .arb:hover {
 
 /* TEXT WITH PICTURE BOX */
 
+.text-with-pic {
+    margin-top: 8rem;
+    margin-bottom: 8rem; 
+}
+
 .half-box {
+    
     width: 50%;
     float: left;
 }
 
-.text-with-pic {
-    
-}
+
 /* Image Box */
 
 .image-box {
@@ -337,6 +338,14 @@ a .arb:hover {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.text-box {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    line-height: 2;
+   
 }
 
 
