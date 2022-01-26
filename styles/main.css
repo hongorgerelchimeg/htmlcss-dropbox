@@ -212,10 +212,14 @@ a .arb:hover {
 }
 
 .collumn {
-    width: 30%;
-    height: 1000px;
+    width: calc(100% / 3 - 4rem / 3);
+    height: 900px;
     float: left;
     border: 1px solid rgb(201, 201, 201);
+}
+
+.collumn:nth-child(3n + 2) {
+    margin: 0 2rem;
 }
 
 .collumn h5 {
@@ -280,6 +284,8 @@ a .arb:hover {
     margin: 1rem 0;
 
 }
+
+
 
 
 
