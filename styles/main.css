@@ -26,8 +26,8 @@ h1  {
 
 h2  {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 3.6rem;
+    font-weight: 600;
+    font-size: 2.2rem;
 }
 
 /* Logo */
@@ -100,6 +100,10 @@ li a:hover {
     margin-left: 2rem;
 }
 
+.white-space {
+    margin: 2rem 0;
+}
+
 /* Button */
 
 button {
@@ -125,7 +129,7 @@ button {
 
 .container-80 {
     padding-top: 10rem;
-    max-width: 78%;
+    max-width: 80%;
     margin: 0 auto;
     position: relative;
 }
@@ -162,4 +166,34 @@ button {
 
 /* Main Container */
 
+.container-70 {
+    max-width: 70%;
+    min-width: 500px;
+    margin: 10rem auto 3rem;
+}
+
+/* Artificial Radio Button */
+
+.artificial-radio-holder {
+    margin: 1.5rem 0 1rem;
+}
+
+.arb {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: .3rem solid #0261FF;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.3rem;
+}
+
+.senza-bordini {
+    border: 0.1rem solid rgb(201, 201, 201);
+    margin-left: 1rem; 
+}
+
+a .arb:hover {
+    border: .3rem solid #0261FF;
+}
 
