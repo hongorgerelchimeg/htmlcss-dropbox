@@ -108,7 +108,8 @@ li a:hover {
 }
 
 .white-space {
-    margin: 2rem 0;
+    width: auto;
+    height: 1.5rem;
 }
 
 /* Button */
@@ -227,9 +228,22 @@ a .arb:hover {
     margin-right: 0.2rem;
 }
 
+.collumn .table-mini-container .line-text {
+    margin: 1rem 0;
+    display: inline-block;
+}
+
 .table-header {
+    width: 100%;
+    border-bottom: 1px solid rgb(201, 201, 201);
     text-align: center;
 }
+
+.table-mini-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 
 
