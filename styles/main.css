@@ -112,6 +112,11 @@ li a:hover {
     height: 1.5rem;
 }
 
+.white-space-long {
+    width: auto;
+    height: 50px;
+}
+
 /* Button */
 
 button {
@@ -122,6 +127,10 @@ button {
     font-size: .7rem;
     cursor: pointer;
     
+}
+
+button:hover {
+    filter: grayscale(0.5);
 }
 
 .right-side .button {
@@ -301,7 +310,7 @@ a .arb:hover {
 }
 
 .full-table-right {
-    width: calc(100% - 66% - 0.2rem);
+    width: calc(100% - 66% - 0.9rem);
     float: right;
 }
 
