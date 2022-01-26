@@ -27,7 +27,7 @@ h1  {
 h2  {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -121,7 +121,7 @@ li a:hover {
 
 .white-space-long {
     width: auto;
-    height: 500px;
+    height: 50px;
 }
 
 /* Button */
@@ -177,7 +177,7 @@ button:hover {
 
 .hero-image {
     position: absolute;
-    bottom: -10%;
+    bottom: -15%;
     left: 33%;
    
 }
@@ -191,7 +191,7 @@ button:hover {
 
 .container-70 {
     max-width: 70%;
-    min-width: 500px;
+    min-width: 550px;
     margin: 10rem auto 3rem;
 }
 
@@ -256,6 +256,10 @@ a .arb:hover {
     margin-left: -1rem;
 }
 
+.collumn .table-mini-container .no-padding {
+    margin-left: -1rem;
+}
+
 .table-header {
     width: 100%;
     border-bottom: 1px solid rgb(201, 201, 201);
@@ -311,6 +315,15 @@ a .arb:hover {
 .full-table-right {
     width: calc(100% - 66% - 0.9rem);
     float: right;
+}
+
+.full-table-right .button button {
+    line-height: 1.7;
+    
+}
+    
+.full .table-mini-container .full-table-left .line-text {
+    padding: 0;
 }
 
 /* TEXT WITH PICTURE BOX */
