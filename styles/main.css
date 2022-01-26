@@ -213,7 +213,7 @@ a .arb:hover {
 
 .collumn {
     width: calc(100% / 3 - 4rem / 3);
-    height: 900px;
+    height: 140vh;
     float: left;
     border: 1px solid rgb(201, 201, 201);
 }
@@ -285,6 +285,25 @@ a .arb:hover {
 
 }
 
+.container-70 .full {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+
+.container-70 .full .table-mini-container {
+    width: 95%;
+}
+
+.full-table-left {
+    width: 66%;
+    float: left;
+}
+
+.full-table-right {
+    width: calc(100% - 66% - 0.2rem);
+    float: right;
+}
 
 
 
