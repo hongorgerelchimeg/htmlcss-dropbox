@@ -418,17 +418,22 @@ a .arb:hover {
 }
 
 .box-30 {
-    width: 30%;
+    width: 400px;
+    float: left;
 }
 
 .box-40 {
-    width: 40%;
+    width: calc(100% - 800px);
+    height: 400px;
+    float: left;
+    background-color: #F5F5F5;
+    overflow: auto;
 }
 
 .box {
-    width: 50%;
-    min-width: 200px;
-    min-height: 200px ;
+    
+    width: 200px;
+    height: 200px;
     float: left;
     border: 2rem solid rgba(236, 236, 236, 0.0);
     
@@ -447,13 +452,29 @@ a .arb:hover {
 .image-container {
 
     width: 50%;
-    margin: 5.5rem auto 0;
+    margin: 7.5rem auto 0;
   
 }
 
 .image-box2 img {
     width: 120%;
     object-fit: contain;
+}
+
+.box-middle {
+    float: left;
+    padding: 5rem;
+   
+    
+  
+}
+
+.box-middle-container .image-box2 img {
+    max-width: 120px;
+}
+
+.box-middle-container p {
+    margin-top: 3rem;
 }
 
 
