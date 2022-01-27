@@ -94,6 +94,11 @@ li a:hover {
     border-bottom:0.2rem solid #056CF2 ;
 }
 
+.hero-icon a {
+    text-decoration: none;
+    color: black;
+}
+
 .right-side {
     float: right;
 }
@@ -435,7 +440,7 @@ a .arb:hover {
 
 .box-40 {
     width: calc(100% - 800px);
-    min-width: 200px;
+    min-width: 400px;
     height: 400px;
     float: left;
     background-color: #F5F5F5;
