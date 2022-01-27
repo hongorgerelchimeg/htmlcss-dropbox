@@ -125,6 +125,10 @@ li a:hover {
     height: 50px;
 }
 
+.min-margin {
+    margin: 4rem auto 3rem!important;
+}
+
 /* Button */
 
 button {
@@ -193,7 +197,7 @@ button:hover {
 .container-70 {
     max-width: 70%;
     min-width: 550px;
-    margin: 10rem auto 3rem;
+    margin: 14rem auto 3rem;
 }
 
 /* Artificial Radio Button */
@@ -415,7 +419,6 @@ a .arb:hover {
 
 .partners-holder {
     width: 100%;
-    margin-bottom: 4rem;
 }
 
 .box-30 {
@@ -524,6 +527,7 @@ a .arb:hover {
     position: absolute;
     right: 30%;
     bottom: 60%;
+    border: none;
     
 }
 
@@ -531,6 +535,7 @@ a .arb:hover {
 
 .faq {
     width: 100%;
+    margin-bottom: 6rem;
 
 }
 
@@ -548,4 +553,5 @@ a .arb:hover {
     top: -40%;
     font-size: 1.8rem;
 }
+
 
