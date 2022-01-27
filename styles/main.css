@@ -48,7 +48,7 @@ h5  {
 /* Logo */
 
 .left-side a .logo {
-    max-height: 1.2rem;
+    max-height: 1.7rem;
     vertical-align: text-bottom;
 
 }
@@ -64,7 +64,7 @@ h5  {
 
 .menu {
     width: 100%;
-    height: 3.2rem;
+    height: 5.2rem;
     background-color: white;
     padding: 0 2rem;
 }
@@ -84,8 +84,9 @@ h5  {
 li a {
     text-decoration: none;
     color: #1e1919;
-    line-height: 3rem;
+    line-height: 5rem;
     display: inline-block; 
+    font-size: 1.2rem;
      
 }
 
@@ -142,7 +143,7 @@ button {
 }
 
 button:hover {
-    filter: grayscale(0.5);
+    background-color: #78a9e9;
 }
 
 .right-side .button {
@@ -384,6 +385,12 @@ a .arb:hover {
     min-width: 180px;
 }
 
+.bg-none button:hover {
+    background-color: rgb(245, 245, 245);
+    
+    
+}
+
 /* Operations Section */
 
 .col-3-holder {
@@ -572,6 +579,7 @@ a .arb:hover {
 }
 .footer-content-holder ul {
     width: calc(100% / 5);
+    min-width: 140px;
     float: left;
 }
 
@@ -617,4 +625,46 @@ footer .footer-holder .footer-content-holder li a:hover {
     display: inline-block;
     margin-left: .4rem;
     vertical-align: middle;
+}
+
+
+/* BONUS Drop-down Menu*/
+
+.drop-down {
+    position: relative;
+    display: inline-block;
+  }
+  
+.drop-down-content {
+    display: none;
+    position: absolute;
+    left: -30%;
+    /* transform: translate(-50%); */
+    background-color: white;
+    border-bottom: 0.3rem solid #0261FF;
+    min-width: 130px;
+    padding: .5rem 1.5rem;
+    z-index: 1;
+}
+  
+.drop-down:hover .drop-down-content {
+    display: block;
+}
+
+.drop-down-content a {
+      display: block;
+      font-size: 1rem;
+      line-height: 2.5;
+      
+}
+.drop-down-content a:hover {
+        border-bottom: none;
+        text-decoration: underline;
+        color: #0261FF;
+        font-size: 1rem;
+}
+
+.drop-down span a:hover {
+    border: none;
+    
 }
