@@ -470,17 +470,18 @@ a .arb:hover {
   
 }
 
-.image-box2 img {
+.image-box2 a img {
     width: 120%;
     object-fit: contain;
 }
 
+.tall-image .image-container {
+    margin-top: 4rem;
+}
+
 .box-middle {
     float: left;
-    padding: 5rem;
-   
-    
-  
+    padding: 5rem; 
 }
 
 .box-middle-container .image-box2 img {
@@ -513,6 +514,22 @@ a .arb:hover {
     background-color: #FF1C1D;
 }
 
+.bg-deepblue {
+  background-color: #0E2481;  
+}
+
+.bg-yellow {
+    background-color: #FFD930;
+}
+
+.bg-bloody {
+    background-color: #8a1010;
+}
+
+.bg-bluesh {
+
+    background-color: #B4D0E6;
+}
 /* Box Full */
 .box-full {
     width: 100%;
