@@ -554,4 +554,67 @@ a .arb:hover {
     font-size: 1.8rem;
 }
 
+/* Footer */
 
+.footer-holder {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    
+}
+
+.footer-content-holder {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.footer-content-holder ul {
+    width: calc(100% / 5);
+    float: left;
+}
+
+footer .footer-holder .footer-content-holder li {
+    list-style: none;
+    
+}
+
+footer .footer-holder .footer-content-holder li h3 {
+    line-height: 3;
+    
+}
+
+footer .footer-holder .footer-content-holder li:hover {
+    border: none;
+}
+
+.footer-content-holder li a {
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+
+footer .footer-holder .footer-content-holder li a:hover {
+    border: none;
+    text-decoration: underline;
+}
+
+.lang-selector a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+}
+
+.lang-selector a:before {
+    content: url(../img/globe.svg);
+    display: inline-block;
+    margin-right: .4rem;
+    vertical-align: middle;
+}
+
+.lang-selector a:after {
+    content: url(../img/up.svg);
+    display: inline-block;
+    margin-left: .4rem;
+    vertical-align: middle;
+}
