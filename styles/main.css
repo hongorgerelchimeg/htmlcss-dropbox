@@ -531,5 +531,21 @@ a .arb:hover {
 
 .faq {
     width: 100%;
-    
+
 }
+
+.faq .underliner > * {
+    line-height: 6;
+}
+.underliner {
+    border-bottom: 1px solid gainsboro; 
+    position: relative;  
+}
+
+.underliner i {
+    position: absolute;
+    right: 3%;
+    top: -40%;
+    font-size: 1.8rem;
+}
+
