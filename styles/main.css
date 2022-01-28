@@ -574,14 +574,7 @@ a .arb:hover {
 }
 .underliner {
     border-bottom: 1px solid gainsboro; 
-    position: relative;  
-}
-
-.underliner i {
-    position: absolute;
-    right: 3%;
-    top: -40%;
-    font-size: 1.8rem;
+    
 }
 
 /* Footer */
@@ -716,8 +709,40 @@ footer .footer-holder .footer-content-holder li a:hover {
 
 }
 
-a:hover + .hidden-p {
+.underliner .faq-title:hover + .hidden-p {
 
     display: block;
 }
+
+.faq-title:hover .icon-up i {
+
+    visibility: visible;
+
+}
+
+.faq-title:hover .icon-down i {
+
+    visibility: hidden;
+
+}
+
+.faq-title {
+    position: relative;
+}
+
+.faq-title .icon-up i{
+    position: absolute;
+    right: 3%;
+    bottom: -40%;
+    font-size: 1.8rem;
+    visibility: hidden;
+}
+
+.faq-title .icon-down i{
+    position: absolute;
+    right: 3%;
+    bottom: -40%;
+    font-size: 1.8rem;
+}
+
 
