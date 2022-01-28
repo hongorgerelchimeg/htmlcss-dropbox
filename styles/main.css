@@ -239,7 +239,8 @@ a .arb:hover {
 
 .collumn {
     width: calc(100% / 3 - 4rem / 3);
-    height: 120vh;
+    /* height: 120vh; */
+    
     float: left;
     border: 1px solid rgb(201, 201, 201);
 }
@@ -690,3 +691,33 @@ footer .footer-holder .footer-content-holder li a:hover {
     border: none;
     
 }
+
+/* BONUS #2 */
+
+.white {
+    color: rgba(236, 236, 236, 0.0)
+}
+
+.white i {
+    color: white;
+}
+
+/* Bonus #3 */
+
+.hidden-p {
+    display: none;
+    padding-bottom: 4rem;
+    max-width: 70%;
+}
+
+.hidden-p p {
+    line-height: 2;
+    color: #757575;
+
+}
+
+a:hover + .hidden-p {
+
+    display: block;
+}
+
