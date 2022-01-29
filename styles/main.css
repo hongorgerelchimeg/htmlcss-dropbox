@@ -57,6 +57,7 @@ h5  {
 
 .fixed-menu {
     width: 100%;
+    min-width: 500px;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -204,7 +205,7 @@ button:hover {
 
 .container-70 {
     max-width: 70%;
-    min-width: 550px;
+    min-width: 450px;
     margin: 14rem auto 3rem;
 }
 
@@ -437,27 +438,36 @@ a .arb:hover {
 }
 
 .box-30 {
-    width: 400px;
+    width: 30%;
     float: left;
 }
 
 .box-40 {
-    width: calc(100% - 800px);
-    min-width: 400px;
-    height: 400px;
+    width: 40%;
+    position: relative;
     float: left;
     background-color: #F5F5F5;
     overflow: auto;
 }
 
+.box-40::after {
+    content: '';
+    display: block;
+    padding-bottom: 75%;
+}
+
 .box {
     
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    position: relative;
     float: left;
-    border: 2rem solid rgba(236, 236, 236, 0.0);
-    
-      
+    border: 2rem solid rgba(236, 236, 236, 0.0);      
+}
+
+.box::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
 }
 
 .box-30 .box:hover {
@@ -473,27 +483,25 @@ a .arb:hover {
 
 .image-container {
 
-    width: 50%;
-    margin: 5rem auto 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   
 }
 
 .image-box2 a img {
-    width: 120%;
-    object-fit: contain;
-}
-
-.tall-image .image-container {
-    margin-top: 4rem;
+    width: 100%;
+   
 }
 
 .box-middle {
-    float: left;
     padding: 5rem; 
+    position: absolute;
 }
 
 .box-middle-container .image-box2 img {
-    max-width: 120px;
+    max-width: 30%;
 }
 
 .box-middle-container p {
@@ -539,6 +547,7 @@ a .arb:hover {
     background-color: #B4D0E6;
 }
 /* Box Full */
+
 .box-full {
     width: 100%;
     height: 400px;
@@ -746,5 +755,3 @@ footer .footer-holder .footer-content-holder li a:hover {
     bottom: -40%;
     font-size: 1.8rem;
 }
-
-
