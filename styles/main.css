@@ -720,7 +720,7 @@ footer .footer-holder .footer-content-holder li a:hover {
 
 }
 
-.underliner .faq-title:hover + .hidden-p {
+.underliner:hover .hidden-p {
 
     display: block;
 }
